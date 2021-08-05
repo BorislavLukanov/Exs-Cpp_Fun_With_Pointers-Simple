@@ -14,8 +14,8 @@ int main()
     printf("Pitagore: ");
     std::cin >> Pitagor;
     pAristotel = &Aristotel;
-
-    if (Pitagor > Aristotel)
+    int val = *pAristotel;
+    if (Pitagor > val)
     {
         std::cout << "\nThere is nothing Potegorean in the political decision,\nif you don't respect the siplle rule,\ndon't extend your stolen hand!\n";
         return 0;
