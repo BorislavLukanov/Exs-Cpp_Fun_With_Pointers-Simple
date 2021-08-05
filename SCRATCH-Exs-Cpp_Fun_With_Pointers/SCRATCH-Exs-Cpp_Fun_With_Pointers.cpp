@@ -8,7 +8,7 @@ int main()
     int Pitagor;
     int *pAristotel;
     
-    
+    std::cout << "Give values to Aristotel and Pitagor\n";
     printf("Aristotel: ");
     std::cin >> Aristotel;
     printf("Pitagore: ");
