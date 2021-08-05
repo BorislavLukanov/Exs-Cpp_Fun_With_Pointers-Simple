@@ -17,6 +17,7 @@ int main()
 
     if (Pitagor > Aristotel)
     {
+        std::cout << "\nThere is nothing Potegorean in the political decision,\nif you don't respect the siplle rule,\ndon't extend your stolen hand!\n";
         return 0;
     }
     else
